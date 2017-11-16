@@ -1,3 +1,5 @@
+document.addEventListener("deviceready", function () {
+
 var div = document.getElementById("map_canvas");
 var map = plugin.google.maps.Map.getMap(div);
 map.one(plugin.google.maps.event.MAP_READY, function() {
